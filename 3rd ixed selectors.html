@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selectors</title>
+    <style>
+        .blue {
+            color: blue;
+        }
+        .yellow-bg{
+            background-color: yellow;
+        }
+        .red-bg{background-color: #00ff2ac3;}
+        /* common background for h3 and h4 */
+        h3, h4{
+            color: #001aff;
+        }
+        .hot{color: red;}
+        div.hot{
+            font-size: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h3>mixed selectors</h3>
+    <p>CSS= <span class="blue">Cascading Style Sheets</span></p>
+    <p class="hot">Purpose make website colorful</p>
+    <p>I am exploring CSS</p>
+    <p>I know how to add color</p>
+    <h3>Different types of styles</h3>
+    <ol>
+        <li>Inline Style</li>
+        <li><span class="blue">Embedded</span> Internal style</li>
+        <li>External style</li>
+    </ol> 
+
+    <p>My future hubby where are you</p>
+    <h4>More heading</h4>
+    <div class="hot">This is a div with some content</div>
+
+    <!-- This is my fast Blog -->
+    <div>
+        <h3 class="yellow-bg">This is my Blog</h3>
+        <p class="yellow-bg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati molestiae exercitationem dolor sequi nesciunt ab, necessitatibus tempora sapiente aperiam a sed libero rerum animi neque hic quasi. Ea cum maiores eos qui, debitis delectus minima nisi, vero alias assumenda voluptatibus error vel? Vitae dignissimos earum quisquam placeat consectetur nisi consequatur!</p>
+        <p class="yellow-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis sed ducimus, dolorum quos earum dolore, sunt voluptatem eius voluptatum, assumenda repudiandae suscipit! Accusamus voluptatem quo fuga aperiam soluta esse quidem. Eum assumenda labore debitis velit? Rerum perferendis voluptas unde similique amet fuga, consequatur aliquid est deleniti molestias incidunt quas dolore cum, sunt reiciendis, quam inventore eos voluptate quia pariatur accusamus qui mollitia ullam. Possimus perspiciatis quas voluptas delectus non dolores, distinctio laboriosam aut dicta voluptate sequi corporis obcaecati maiores?</p>
+    </div>
+    <div  class="red-bg">
+        <h3>This is my Blog</h3>
+        <p class="hot">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati molestiae exercitationem dolor sequi nesciunt ab, necessitatibus tempora sapiente aperiam a sed libero rerum animi neque hic quasi. Ea cum maiores eos qui, debitis delectus minima nisi, vero alias assumenda voluptatibus error vel? Vitae dignissimos earum quisquam placeat consectetur nisi consequatur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis sed ducimus, dolorum quos earum dolore, sunt voluptatem eius voluptatum, assumenda repudiandae suscipit! Accusamus voluptatem quo fuga aperiam soluta esse quidem. Eum assumenda labore debitis velit? Rerum perferendis voluptas unde similique amet fuga, consequatur aliquid est deleniti molestias incidunt quas dolore cum, sunt reiciendis, quam inventore eos voluptate quia pariatur accusamus qui mollitia ullam. Possimus perspiciatis quas voluptas delectus non dolores, distinctio laboriosam aut dicta voluptate sequi corporis obcaecati maiores?</p>
+    </div>
+</body>
+</html>

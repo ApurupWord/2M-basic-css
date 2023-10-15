@@ -1,0 +1,14 @@
+li{
+    font-size: large;
+    color: blueviolet;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+ol li{
+    color: crimson;
+    /* display: inline; */
+    /* display: none; */
+    font-size: 25px;
+    
+}

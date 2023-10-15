@@ -1,0 +1,130 @@
+.header{
+    height: 220px;
+    background-image: url(hors.jpg);
+    /* background-image: url(../hors1.jpg); */
+    /* background-image: url(../Styles/images/hors3.jpg); */
+    background-size: 35%;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* background-blend-mode: lighten; */
+}
+
+
+h2{
+    color: #be0606;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: blue;
+    font-size: 30px;
+    background-color: aquamarine;
+    margin-right: 75%;
+    /* text-decoration: underline; */
+    text-decoration: underline green;
+    
+}
+h4{
+    font-size: 20px;
+    color: black;
+}
+.blog1{
+    background-color: #ed8804;
+    box-shadow: 10px 10px 10px gray;
+}
+input{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+input[type= text]{
+    border: 2px solid purple;
+    border-radius: 5px;
+    }
+    input[type= password]{
+        border-color: 2px solid purple;
+        border-radius: 5px;
+    }
+    #trump{color:olive;
+    /* text-align: center; */
+    }
+    #putin{
+        color: darkgreen;
+        font-size: 1.5em;
+        font-weight: 900;
+        line-height:.01%;
+    }
+    .mango{
+        background-color: greenyellow;
+        
+    }
+    .css-1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .blue {
+        color: blue;
+    }
+    .hot{color: red;}
+        div.hot{
+            font-size: 30px;
+            color: chocolate;
+        }
+        .yellow-bg{
+            background-color: #9a9a02;
+        }
+        .BC{
+            background-color: darkslategray;
+        }
+        .BC1{color: whitesmoke;
+
+        }
+        
+        /* common background for h3 and h4 */
+
+        .blog2{
+            background-color: #80ae80;
+            /* border: 10px solid red; */
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            border-radius: 20px; */
+            /* border-left: 10px solid red; */
+            border-width: 7px;
+            border-style: solid;
+            border-color: #7e0707;
+            border-radius: 20px;
+            border-left: 5px;
+            border-right: 1px;
+            margin: 5px;
+            }
+            .blog3{
+                background-color: lightgreen;
+                border: 5px solid red;
+                border-radius: 10%;
+                margin-bottom: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .blog4{
+                background-color: lightsalmon;
+                border-width: 5px;
+                border-style:solid;
+                border-color: #454503;
+                border-radius: 10%;
+                margin-bottom: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .blog5{
+                background-color: lightseagreen;
+                border: 5px solid yellow;
+                border-style: solid;
+                border-radius: 10%;
+                margin: 5px 7px 5px 10px;
+                padding: 10px 10px 10px 15px;
+                height: 150px;   
+                /* border-radius: 50%= gol hoye jabe;  */
+            }
+    
